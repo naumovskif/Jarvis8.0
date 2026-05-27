@@ -1,0 +1,32 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# API keys, tokens, and credentials
+*secret*
+*secrets*
+*token*
+*tokens*
+*api_key*
+*api_keys*
+credentials.json
+credential.json
+client_secret*.json
+service-account*.json
+*.pem
+*.key
+
+# Local databases and generated cache
+*.db
+*.sqlite
+*.sqlite3
+*.log
+__pycache__/
+*.py[cod]
+
+# Local semantic/cache data
+backups/
+cache/
+memory/.semantic_cache/
